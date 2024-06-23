@@ -30,7 +30,7 @@ nav ul li {
 }
 
 header {
-    position: relative;
+    position: absolute;
 }
 
 .background {
