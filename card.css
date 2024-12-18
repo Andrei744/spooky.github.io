@@ -7,7 +7,7 @@
 
 .myCard {
     background-color: transparent;
-    width: 190px;
+    width: 42%;
     height: 290px;
     perspective: 1000px;
     margin: 0 20px 20px 0;
@@ -23,7 +23,7 @@
   .innerCard {
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 90%;
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;

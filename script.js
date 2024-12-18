@@ -21,7 +21,7 @@ var particles = Particles.init({
 
   // set up text to print, each item in array is new line
   var aText = new Array(
-    "Welcome new user, here you can buy a privileges on our discord server :)", 
+    "Welcome, here you can buy keys for our products :)", 
     "GOOD LUCK!",
     "",
     "",
@@ -35,7 +35,7 @@ var particles = Particles.init({
     "",
     "",
     "",
-    "From: Vindok"
+    "From: Nework X Nevxrlose"
   );
   
   var letters = "abcdefghijklmnopqrstuvwxyz#%&^+=-:;[]{}\|/()*!@";

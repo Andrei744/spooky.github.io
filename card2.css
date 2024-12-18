@@ -7,10 +7,11 @@
 
 .myCard2 {
     background-color: transparent;
+    left: 59%;
     width: 190px;
     height: 290px;
     perspective: 1000px;
-    margin: 0 20px 20px 0;
+    margin: 0 20px 20px 40px;
   }
   
   .title {
@@ -22,8 +23,8 @@
   
   .innerCard2 {
     position: relative;
-    width: 100%;
-    height: 100%;
+    width: 110%;
+    height: 90%;
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
@@ -54,12 +55,12 @@
   
   .frontSide2,
   .frontSide2::before {
-    background: linear-gradient(43deg, rgb(238, 253, 32) 0%, rgb(252, 246, 161) 46%, #f8ecc5 100%);
+    background: linear-gradient(43deg, rgb(146, 32, 253) 0%, rgb(208, 161, 252) 46%, #e1c5f8 100%);
   }
   
   .backSide2,
   .backSide2::before {
-    background-image: linear-gradient(160deg, #dae900 0%, #cfd080 100%);
+    background-image: linear-gradient(160deg, #8000e9 0%, #a980d0 100%);
   }
   
   .backSide2 {
@@ -98,10 +99,43 @@
 .container2 {
     display: flex;
     flex-wrap: wrap;
-    width: 57%;
+    width: 25%;
     height: 260px;
     margin: 200px auto;
     padding: 15px;
+}
+
+@media only screen and (max-width: 1800px){
+  button {
+      padding: 15px 25px;
+  }
+  button {
+      font-size: 20px;
+  }
+  .container2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 15%;
+    height: 580px;
+    margin: 200px auto;
+    padding: 15px;
+}
+.myCard2 {
+  background-color: transparent;
+  left: 59%;
+  width: 190px;
+  height: 290px;
+  perspective: 1000px;
+  margin: 0 20px 20px 13px;
+}
+.myCard {
+  background-color: transparent;
+  left: 59%;
+  width: 190px;
+  height: 290px;
+  perspective: 1000px;
+  margin: 0 20px 20px 20px;
+}
 }
 
 .glass2{
@@ -111,6 +145,27 @@
     border-radius: 20px;
     border:1px solid rgba(255, 255, 255, 0.18);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+@media only screen and (max-width: 1800px){
+  .logo {
+      width: 20%;
+  }
+  button {
+      padding: 15px 25px;
+  }
+  button {
+      font-size: 20px;
+  }
+  .container {
+      height: 386px;
+      width: 27%;
+  }
+  .glass2{
+    position: absolute;
+    left: 40%;
+    bottom: 5%;
+  }
 }
 
 p {
