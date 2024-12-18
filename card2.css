@@ -171,6 +171,15 @@
   }
 }
 
+@media only screen and (max-height: 849px){
+  .glass2{
+    position: absolute;
+    bottom: 5%;
+    width: 200px;
+    height: 71%;
+  }
+}
+
 
 p {
   font-size: 30px;
