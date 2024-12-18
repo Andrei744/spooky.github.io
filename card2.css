@@ -24,7 +24,7 @@
   .innerCard2 {
     position: relative;
     width: 110%;
-    height: 90%;
+    height: 100%;
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
@@ -100,7 +100,7 @@
     display: flex;
     flex-wrap: wrap;
     width: 25%;
-    height: 260px;
+    height: 290px;
     margin: 200px auto;
     padding: 15px;
 }
@@ -147,6 +147,8 @@
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
 
+
+
 @media only screen and (max-width: 1800px){
   .logo {
       width: 20%;
@@ -163,11 +165,12 @@
   }
   .glass2{
     position: absolute;
-    left: 40%;
     bottom: 5%;
     width: 200px;
+    height: 64%;
   }
 }
+
 
 p {
   font-size: 30px;

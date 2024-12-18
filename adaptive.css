@@ -18,9 +18,9 @@
     }
     .glass2{
         top: 0%;
+        left: 45%;
     }
 }
-
 
 @media only screen and (max-width: 992px){
     nav ul {
@@ -72,10 +72,43 @@
         top: 180px;
         left: 250px;
     }
+
+    .main-btn2{
+        position: absolute;
+        left: 180px;
+    }
+    
+    .main-buy2{
+        position: absolute;
+        left: 300px;
+    }
+    
+    .main-tel2{
+        position: absolute;
+        top: 115px;
+        left: 307px;
+    }
+    
+    .main-dis2{
+        position: absolute;
+        top: 115px;
+        left: 180px;
+    }
+    
+    .main-tik2{
+        position: absolute;
+        top: 180px;
+        left: 180px;
+    }
     .glass{
         position: absolute;
         top: 270px;
         right: -14%;
+    }
+    .glass2{
+        position: absolute;
+        top: 80px;
+        left: 30%;
     }
 }
 
@@ -130,10 +163,45 @@
         top: 180px;
         left: 150px;
     }
+
+    .main-btn2{
+        position: absolute;
+        left: 180px;
+    }
+    
+    .main-buy2{
+        position: absolute;
+        left: 300px;
+    }
+    
+    .main-tel2{
+        position: absolute;
+        top: 115px;
+        left: 307px;
+    }
+    
+    .main-dis2{
+        position: absolute;
+        top: 115px;
+        left: 180px;
+    }
+    
+    .main-tik2{
+        position: absolute;
+        top: 180px;
+        left: 180px;
+    }
+
     .glass{
         position: absolute;
         top: 270px;
         right: -14%;
+    }
+
+    .glass2{
+        position: absolute;
+        top: 80px;
+        left: 30%;
     }
 }
 
@@ -169,10 +237,43 @@
         left: 100px;
     }
 
+    .main-btn2{
+        position: absolute;
+        left: 30px;
+    }
+    
+    .main-buy2{
+        position: absolute;
+        left: 150px;
+    }
+    
+    .main-tel2{
+        position: absolute;
+        top: 115px;
+        left: 30px;
+    }
+    
+    .main-dis2{
+        position: absolute;
+        top: 115px;
+        left: 188px;
+    }
+    
+    .main-tik2{
+        position: absolute;
+        top: 180px;
+        left: 30px;
+    }
+
     .glass{
         position: absolute;
         top: 270px;
         right: -14%;
+    }
+    .glass2{
+        position: absolute;
+        top: 80px;
+        left: 25%;
     }
 }
 
@@ -229,11 +330,45 @@
         top: 170px;
         left: 30px;
     }
+
+    .main-btn2{
+        position: absolute;
+        left: 30px;
+    }
+    
+    .main-buy2{
+        position: absolute;
+        left: 150px;
+    }
+    
+    .main-tel2{
+        position: absolute;
+        top: 115px;
+        left: 30px;
+    }
+    
+    .main-dis2{
+        position: absolute;
+        top: 115px;
+        left: 188px;
+    }
+    
+    .main-tik2{
+        position: absolute;
+        top: 180px;
+        left: 30px;
+    }
     
     .glass{
         position: absolute;
         top: 270px;
         right: -14%;
+    }
+
+    .glass2{
+        position: absolute;
+        top: 80px;
+        left: 20%;
     }
 }
 
@@ -259,6 +394,11 @@
      button {
         padding: 10px 20px;
         font-size: 20px;
+    }
+    .glass2{
+        position: absolute;
+        top: 80px;
+        left: 30%;
     }
 }
 
