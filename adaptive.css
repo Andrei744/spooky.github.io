@@ -23,14 +23,64 @@
 
 
 @media only screen and (max-width: 992px){
-
+    nav ul {
+        display: block;
+        padding-top: 50px;
+     }
+     nav ul li {
+        display: block;
+        padding-top: 10px;
+     }
+     
+     #bttn {
+        position: fixed;
+        bottom: 52rem;
+        right: 10px;
+     }
+     .container2{
+        margin: 16px auto;
+     }
+     .container{
+        position: absolute;
+        margin: 0% 35%;
+        width: 50%;
+     }
+     .main-btn{
+        position: absolute;
+        left: 250px;
+    }
+    
+    .main-buy{
+        position: absolute;
+        left: 370px;
+    }
+    
+    .main-tel{
+        position: absolute;
+        top: 115px;
+        left: 250px;
+    }
+    
+    .main-dis{
+        position: absolute;
+        top: 115px;
+        left: 408px;
+    }
+    
+    .main-tik{
+        position: absolute;
+        top: 180px;
+        left: 250px;
+    }
+    .glass{
+        position: absolute;
+        top: 270px;
+        right: -14%;
+    }
 }
 
 
 @media only screen and (max-width: 768px){
-    .logo {
-        width: 30%;
-    }
      nav ul {
         display: block;
         padding-top: 50px;
@@ -51,12 +101,78 @@
      .container{
         position: absolute;
         margin: 0% 35%;
+        width: 50%;
      }
+     .main-btn{
+        position: absolute;
+        left: 150px;
+    }
+    
+    .main-buy{
+        position: absolute;
+        left: 270px;
+    }
+    
+    .main-tel{
+        position: absolute;
+        top: 115px;
+        left: 150px;
+    }
+    
+    .main-dis{
+        position: absolute;
+        top: 115px;
+        left: 308px;
+    }
+    
+    .main-tik{
+        position: absolute;
+        top: 180px;
+        left: 150px;
+    }
+    .glass{
+        position: absolute;
+        top: 270px;
+        right: -14%;
+    }
 }
 
 @media only screen and (max-width: 643px){
     .container {
-        padding: 30px;
+        width: 50%;
+    }
+    .main-btn{
+        position: absolute;
+        left: 100px;
+    }
+    
+    .main-buy{
+        position: absolute;
+        left: 220px;
+    }
+    
+    .main-tel{
+        position: absolute;
+        top: 115px;
+        left: 100px;
+    }
+    
+    .main-dis{
+        position: absolute;
+        top: 115px;
+        left: 258px;
+    }
+    
+    .main-tik{
+        position: absolute;
+        top: 180px;
+        left: 100px;
+    }
+
+    .glass{
+        position: absolute;
+        top: 270px;
+        right: -14%;
     }
 }
 
@@ -84,7 +200,40 @@
         font-size: 20px;
     }
     .container{
-        width: 40%;
+        width: 50%;
+    }
+    .main-btn{
+        position: absolute;
+        left: 30px;
+    }
+    
+    .main-buy{
+        position: absolute;
+        left: 140px;
+    }
+    
+    .main-tel{
+        position: absolute;
+        top: 110px;
+        left: 30px;
+    }
+    
+    .main-dis{
+        position: absolute;
+        top: 110px;
+        left: 180px;
+    }
+    
+    .main-tik{
+        position: absolute;
+        top: 170px;
+        left: 30px;
+    }
+    
+    .glass{
+        position: absolute;
+        top: 270px;
+        right: -14%;
     }
 }
 
