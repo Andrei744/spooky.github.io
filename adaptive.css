@@ -629,6 +629,7 @@
         position: absolute;
         top: 290px;
         left: -14%;
+        height: 400px;
     }
 
     .myCard {
@@ -661,20 +662,20 @@
             .prev {
                 position: absolute;
                 left: 22%;
-                top: 80%;
+                top: 88%;
               }
             
             .next {
                 position: absolute;
-                left: 50%;
-                top: 80%;
+                left: 54%;
+                top: 88%;
                 width: 126px;
               }
         
               .slider {
                 position: absolute;
-                left: 7%;
-                top: 87%;
+                left: 1%;
+                top: 97%;
                 width: 400px;
                 height: 47vw;
                 overflow: hidden;
