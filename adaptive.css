@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1920px){
+@media only screen and (max-width: 1800px){
     .logo {
         width: 20%;
     }
@@ -16,10 +16,96 @@
         width: 100%;
         height: 100%;
     }
-    .glass2{
-        top: 0%;
-        left: 45%;
+    .myCard {
+        position: absolute;
+        background-color: transparent;
+        left: 36%;
+        top: 30%;
+        width: 205px;
+        height: 365px;
+        perspective: 1000px;
+        margin: 0 20px 20px 40px;
+        }
+
+        .myCard2 {
+            position: absolute;
+            background-color: transparent;
+            left: 49%;
+            top: 30%;
+            width: 190px;
+            height: 330px;
+            perspective: 1000px;
+            margin: 0 20px 20px 80px;
+            }
+
+}
+
+@media only screen and (max-width: 1400px){
+    .logo {
+        width: 20%;
     }
+    button {
+        padding: 15px 25px;
+    }
+    button {
+        font-size: 20px;
+    }
+    .container {
+        height: 386px;
+        width: 27%;
+    }
+    .background{
+        width: 100%;
+        height: 100%;
+    }
+    .myCard {
+        position: absolute;
+        background-color: transparent;
+        left: 30%;
+        top: 30%;
+        width: 205px;
+        height: 365px;
+        perspective: 1000px;
+        margin: 0 20px 20px 40px;
+        }
+
+        .myCard2 {
+            position: absolute;
+            background-color: transparent;
+            left: 43%;
+            top: 30%;
+            width: 190px;
+            height: 330px;
+            perspective: 1000px;
+            margin: 0 20px 20px 130px;
+            }
+    h1{
+        font-size: 50px;
+    }
+    .prev {
+        position: absolute;
+        left: 6%;
+        top: 78%;
+      }
+    
+    .next {
+        position: absolute;
+        left: 17%;
+        top: 78%;
+        width: 126px;
+      }
+
+      .slider {
+        position: absolute;
+        left: 34%;
+        top: 30%;
+        width: 800px;
+        height: 400px;
+        overflow: hidden;
+        border: 2px solid #ccc;
+        border-radius: 8px;
+        background: #fff;
+      }
 }
 
 @media only screen and (max-width: 992px){
@@ -30,12 +116,6 @@
      nav ul li {
         display: block;
         padding-top: 10px;
-     }
-     
-     #bttn {
-        position: fixed;
-        bottom: 52rem;
-        right: 10px;
      }
      .container2{
         margin: 16px auto;
@@ -75,41 +155,105 @@
 
     .main-btn2{
         position: absolute;
-        left: 180px;
+        top: 1%;
+        left: 250px;
     }
     
     .main-buy2{
         position: absolute;
-        left: 300px;
+        top: 1%;
+        left: 370px;
     }
     
     .main-tel2{
         position: absolute;
-        top: 115px;
-        left: 307px;
+        top: 8.5%;
+        left: 377px;
     }
     
     .main-dis2{
         position: absolute;
         top: 115px;
-        left: 180px;
+        top: 8.5%;
+        left: 250px;
     }
     
     .main-tik2{
         position: absolute;
-        top: 180px;
-        left: 180px;
+        top: 16%;
+        left: 250px;
     }
+
+    .main-log{
+        position: relative;
+        left: 380px;
+        top: 135px;
+    }
+
+    .main-log2{
+        position: relative;
+        left: 380px;
+        top: 100px;
+    }
+
     .glass{
         position: absolute;
-        top: 270px;
-        right: -14%;
+        top: 300px;
+        left: -100px;
     }
-    .glass2{
+
+    .myCard {
         position: absolute;
-        top: 80px;
+        background-color: transparent;
         left: 30%;
-    }
+        top: 26%;
+        width: 205px;
+        height: 305px;
+        perspective: 1000px;
+        margin: 0 20px 20px 40px;
+        }
+
+        .myCard2 {
+            position: absolute;
+            background-color: transparent;
+            left: 30%;
+            top: 59%;
+            width: 190px;
+            height: 330px;
+            perspective: 1000px;
+            margin: 0 20px 20px 40px;
+            }
+
+            h1{
+                position: absolute;
+                top: 250px;
+                left: 22%;
+                font-size: 40px;
+            }
+            .prev {
+                position: absolute;
+                left: 36%;
+                top: 82%;
+              }
+            
+            .next {
+                position: absolute;
+                left: 50%;
+                top: 82%;
+                width: 126px;
+              }
+        
+              .slider {
+                position: absolute;
+                left: 22%;
+                top: 90%;
+                width: 600px;
+                height: 300px;
+                overflow: hidden;
+                border: 2px solid #ccc;
+                border-radius: 8px;
+                background: #fff;
+              }
 }
 
 
@@ -176,33 +320,89 @@
     
     .main-tel2{
         position: absolute;
-        top: 115px;
         left: 307px;
     }
     
     .main-dis2{
         position: absolute;
-        top: 115px;
         left: 180px;
     }
     
     .main-tik2{
         position: absolute;
-        top: 180px;
         left: 180px;
+    }
+
+    .main-log{
+        position: relative;
+        left: 10px;
+        top: 200px;
+    }
+
+    .main-log2{
+        position: relative;
+        left: 60px;
+        top: 160px;
     }
 
     .glass{
         position: absolute;
-        top: 270px;
+        top: 300px;
         right: -14%;
     }
 
-    .glass2{
+    .myCard {
         position: absolute;
-        top: 80px;
-        left: 30%;
-    }
+        background-color: transparent;
+        left: 23%;
+        top: 26%;
+        width: 205px;
+        height: 285px;
+        perspective: 1000px;
+        margin: 0 20px 20px 40px;
+        }
+
+        .myCard2 {
+            position: absolute;
+            background-color: transparent;
+            left: 23%;
+            top: 56%;
+            width: 190px;
+            height: 340px;
+            perspective: 1000px;
+            margin: 0 20px 20px 40px;
+            }
+
+            h1{
+                position: absolute;
+                top: 250px;
+                left: 10%;
+                font-size: 40px;
+            }
+            .prev {
+                position: absolute;
+                left: 32%;
+                top: 82%;
+              }
+            
+            .next {
+                position: absolute;
+                left: 50%;
+                top: 82%;
+                width: 126px;
+              }
+        
+              .slider {
+                position: absolute;
+                left: 11%;
+                top: 90%;
+                width: 600px;
+                height: 300px;
+                overflow: hidden;
+                border: 2px solid #ccc;
+                border-radius: 8px;
+                background: #fff;
+              }
 }
 
 @media only screen and (max-width: 643px){
@@ -239,42 +439,99 @@
 
     .main-btn2{
         position: absolute;
-        left: 30px;
+        left: 130px;
     }
     
     .main-buy2{
         position: absolute;
-        left: 150px;
+        left: 250px;
     }
     
     .main-tel2{
         position: absolute;
-        top: 115px;
-        left: 30px;
+        left: 130px;
     }
     
     .main-dis2{
         position: absolute;
-        top: 115px;
-        left: 188px;
+        left: 288px;
     }
     
     .main-tik2{
         position: absolute;
-        top: 180px;
-        left: 30px;
+        left: 130px;
+    }
+
+    .main-log{
+        position: relative;
+        left: 10px;
+        top: 200px;
+    }
+
+    .main-log2{
+        position: relative;
+        left: 60px;
+        top: 160px;
     }
 
     .glass{
         position: absolute;
-        top: 270px;
+        top: 300px;
         right: -14%;
     }
-    .glass2{
+
+    .myCard {
         position: absolute;
-        top: 80px;
-        left: 25%;
-    }
+        background-color: transparent;
+        left: 23%;
+        top: 26%;
+        width: 205px;
+        height: 285px;
+        perspective: 1000px;
+        margin: 0 20px 20px 40px;
+        }
+
+        .myCard2 {
+            position: absolute;
+            background-color: transparent;
+            left: 23%;
+            top: 56%;
+            width: 190px;
+            height: 340px;
+            perspective: 1000px;
+            margin: 0 20px 20px 40px;
+            }
+
+            h1{
+                position: absolute;
+                top: 250px;
+                left: 15%;
+                font-size: 25px;
+            }
+            .prev {
+                position: absolute;
+                left: 27%;
+                top: 82%;
+              }
+            
+            .next {
+                position: absolute;
+                left: 48%;
+                top: 82%;
+                width: 126px;
+              }
+        
+              .slider {
+                position: absolute;
+                left: 2%;
+                top: 90%;
+                width: 600px;
+                height: 300px;
+                overflow: hidden;
+                border: 2px solid #ccc;
+                border-radius: 8px;
+                background: #fff;
+              }
 }
 
 
@@ -343,33 +600,88 @@
     
     .main-tel2{
         position: absolute;
-        top: 115px;
         left: 30px;
     }
     
     .main-dis2{
         position: absolute;
-        top: 115px;
         left: 188px;
     }
     
     .main-tik2{
         position: absolute;
-        top: 180px;
         left: 30px;
+    }
+
+    .main-log{
+        position: relative;
+        left: 30px;
+        top: 185px;
+    }
+
+    .main-log2{
+        position: relative;
+        left: 30px;
+        top: 160px;
     }
     
     .glass{
         position: absolute;
-        top: 270px;
-        right: -14%;
+        top: 290px;
+        left: -14%;
     }
 
-    .glass2{
+    .myCard {
         position: absolute;
-        top: 80px;
-        left: 20%;
-    }
+        background-color: transparent;
+        left: 10%;
+        top: 26%;
+        width: 205px;
+        height: 285px;
+        perspective: 1000px;
+        margin: 0 20px 20px 40px;
+        }
+
+        .myCard2 {
+            position: absolute;
+            background-color: transparent;
+            left: 10%;
+            top: 57%;
+            width: 190px;
+            height: 310px;
+            perspective: 1000px;
+            margin: 0 20px 20px 40px;
+            }
+            h1{
+                position: absolute;
+                top: 250px;
+                left: 5%;
+                font-size: 25px;
+            }
+            .prev {
+                position: absolute;
+                left: 22%;
+                top: 80%;
+              }
+            
+            .next {
+                position: absolute;
+                left: 50%;
+                top: 80%;
+                width: 126px;
+              }
+        
+              .slider {
+                position: absolute;
+                left: 7%;
+                top: 87%;
+                width: 400px;
+                height: 47vw;
+                overflow: hidden;
+                border: 2px solid #ccc;
+                border-radius: 8px;
+                background: #fff;
+              }
 }
 
 
@@ -394,11 +706,6 @@
      button {
         padding: 10px 20px;
         font-size: 20px;
-    }
-    .glass2{
-        position: absolute;
-        top: 80px;
-        left: 30%;
     }
 }
 

@@ -1,10 +1,46 @@
-var aText = new Array(
-    "",
-    "NEW USER! NEW USER! NEW USER! NEW USER! NEW USER! NEW USER! NEW USER! NEW USER! NEW USER! NEW USER! NEW USER! NEW USER! NEW USER!"
+var particles = Particles.init({
+    selector: ".background",
+    color: ["#FF0099", "#00FFFF"],
+    connectParticles: true,
+    responsive: [
+      {
+        breakpoint: 0,
+        options: {
+          color: ["#FFF", "#FF0099", "#00FFFF"],
+          maxParticles: 60,
+          connectParticles: false,
+        },
+      },
+    ],
+  });
+  
+  Number.prototype.pad = function (n) {
+    for (var r = this.toString(); r.length < n; r = 0 + r);
+    return r;
+  };
+
+  // set up text to print, each item in array is new line
+  var aText = new Array(
+    "There is ALL functions of PRIVATE cheat", 
+    "-AimBot",
+    "-Wall Hack",
+    "-Wall Shoot",
+    "-Anti Granades",
+    "-Infinity Jump",
+    "-EXP Hack",
+    "-Money Hack",
+    "-TriggerBot",
+    "-Damage Hack",
+    "-Respawn Hack",
+    "-Chams Bypass",
+    "-Instant Bomb",
+    "-Add Score Hack",
+    "-Noclip",
+    "From: Nework X Nevxrlose"
   );
   
   var letters = "abcdefghijklmnopqrstuvwxyz#%&^+=-:;[]{}\|/()*!@";
-  var iSpeed = 30;
+  var iSpeed = 5;
   var iIndex = 0;
   var iArrLength = aText[0].length;
   var iScrollAt = 20;
@@ -48,25 +84,3 @@ var aText = new Array(
   }
   
   typewriter();
-  
-  var particles = Particles.init({
-    selector: ".background",
-    color: ["#FF0099", "#00FFFF"],
-    connectParticles: true,
-    responsive: [
-      {
-        breakpoint: 0,
-        options: {
-          color: ["#FFF", "#FF0099", "#00FFFF"],
-          maxParticles: 60,
-          connectParticles: false,
-        },
-      },
-    ],
-  });
-  
-  Number.prototype.pad = function (n) {
-    for (var r = this.toString(); r.length < n; r = 0 + r);
-    return r;
-  };
-

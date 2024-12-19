@@ -23,8 +23,3 @@ button {
   box-shadow: 0 0 5px #008cff, 0 0 20px #008cff, 0 0 50px #008cff,
     0 0 100px #008cff;
 }
-
-#bttn {
-position: fixed;
-right: 2rem;
-}

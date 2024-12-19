@@ -40,7 +40,7 @@ button:hover, :focus {
     border: 1px solid #06d1f580;
 }
 
-h1 {
+h2 {
     text-shadow: 0 0 1.25px #06d1f580, 0 0 2.5px #06d1f580, 0 0 5px #06d1f580;
     color: #06d1f580;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;

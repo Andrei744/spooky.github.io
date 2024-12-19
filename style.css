@@ -48,6 +48,7 @@ nav ul li {
     border-radius: 20px;
     border:1px solid rgba(255, 255, 255, 0.18);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    height: 380px;
 }
 
 #typedtext {
@@ -79,9 +80,5 @@ nav ul li {
    .card:hover {
     box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
    }
-
-.glass2{
-    height: 310px;
-}
 
 
