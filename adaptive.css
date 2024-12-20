@@ -685,6 +685,57 @@
               }
 }
 
+@media only screen and (max-height: 820px){
+    .myCard {
+        position: absolute;
+        background-color: transparent;
+        left: 10%;
+        top: 26%;
+        width: 205px;
+        height: 285px;
+        perspective: 1000px;
+        margin: 20px 20px 20px 40px;
+        }
+
+        .myCard2 {
+            position: absolute;
+            background-color: transparent;
+            left: 10%;
+            top: 57%;
+            width: 190px;
+            height: 310px;
+            perspective: 1000px;
+            margin: 60px 20px 20px 40px;
+            }
+            .prev {
+                position: absolute;
+                left: 22%;
+                top: 88%;
+                margin-top: 40px;
+              }
+            
+            .next {
+                position: absolute;
+                left: 54%;
+                top: 88%;
+                width: 126px;
+                margin-top: 40px;
+              }
+        
+              .slider {
+                position: absolute;
+                left: 1%;
+                top: 97%;
+                width: 400px;
+                height: 47vw;
+                overflow: hidden;
+                border: 2px solid #ccc;
+                border-radius: 8px;
+                background: #fff;
+                margin-top: 40px;
+              }
+}
+
 
 @media only screen and (max-width: 320px){
     .logo {
